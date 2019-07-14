@@ -1,0 +1,51 @@
+.search-bar {
+  flex: 0 1 100%;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  background: white;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  line-height: 1;
+  border-radius: 12px;
+}
+.search-bar input {
+  border: 0;
+  margin: 0;
+  flex: 1;
+}
+.search-bar input:focus {
+  outline: 0;
+}
+.search-bar.focused .search-bar-field {
+  left: 3px;
+}
+.search-bar.focused .search-bar-clear {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.search-bar-field {
+  position: absolute;
+  left: calc(50% - 35px);
+  top: calc(50% - 9px);
+  transition: left 0.3s;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-clear {
+  position: absolute;
+  right: 3px;
+  padding: 0;
+  background: none;
+  top: calc(50% - 9px);
+  border: 0;
+  line-height: inherit;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=pretty-search-bar.css.map */
