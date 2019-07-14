@@ -6,7 +6,7 @@
 * insert the following HTML template
 ```
 <div class="search-bar" tabIndex='-1'>
- 	<div class="search-bar-field">
+	<div class="search-bar-field">
 		<!-- insert your search icon here -->
  		<input class="search-input" type="text" placeholder="Search">
 	</div>
@@ -15,3 +15,4 @@
  	</button>
 </div>
 ```
+
